@@ -5,8 +5,8 @@ A Rails API web service for generating short links in the style of bit.ly.
 ### Running the Application
 The easiest way to run this package is using the included Dockerfile.
 The app will run on port 3000 in development mode.  The database is stock 
-sqlite3, and the included test and development databases are pre-migrated 
-but otherwise empty.
+sqlite3, and the included test and development databases are migrated during
+container build, but otherwise empty.
 
 First, build the container.  Access to the public Docker Hub and Alpine package
 repository are required, so a system with restricted Internet access might not
